@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="GADEV_XXFER" uuid="b6d433a4-33d2-4478-8cd2-541f4678c382">
+      <driver-ref>oracle.19</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@GADEV</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\instantclient_21_6\network\admin" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="GADEV_APPS" uuid="fcc8d5be-88d6-47f9-8695-e038e477d5dc">
+      <driver-ref>oracle.19</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@GADEV</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\instantclient_21_6\network\admin" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="DEVAFAL" uuid="2a65a987-4c5f-4eb9-bd63-9f368b1fbb91">
+      <driver-ref>oracle.19</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@DEVAFAL</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\instantclient_21_6\network\admin" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
